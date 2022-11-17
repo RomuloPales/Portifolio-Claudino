@@ -24,8 +24,8 @@ a{
     width: 382px;
 }
 .imagem > img{
-    width: 152px;
-    height: 60px;
+    width: 182px;
+    height: 70px;
 }
 
 .titulo{
@@ -80,8 +80,11 @@ a{
     
 } 
 .socialMedia > ul > li:hover{
-    background-color: red;
+    background-color:red ;
 }
 a{
     text-decoration: none;
+}
+h1:hover{
+    color:darkgoldenrod ;
 }
