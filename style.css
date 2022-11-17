@@ -1,12 +1,37 @@
 body{
     
 }
-
-header{
-    
+.container{
+    margin: 0 auto;
 }
 
-img{
-    height: 200px;
-    width: 200px;
+.header{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    overflow: hidden;
+    --widgets-spacing:20px;
+}
+
+.imagem{
+    height: 100%;
+    width: 262px;
+    background-color: purple;
+}
+.imagem img{
+    width: 100%;
+    height: 100%;
+}
+
+.titulo{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+.icons{
+    background-color: red;
+    width: 100px;
+    height: 100px;
 }
